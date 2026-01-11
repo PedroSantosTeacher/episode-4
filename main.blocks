@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{`;yx#jdh#aL%1bQw*k7">lightsOn</variable></variables><block type="pxt-on-start" id="}i*[n0`_qLey6?lHa8o|" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="OCM-6x1K1;w/?4kLO^Y:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="n:J`DRAWUDusdIb:$?vr" x="244" y="0"><field name="NAME">Button.A</field><comment pinned="false" h="80" w="160">lightsOn 1 means that is on, 0 means off</comment><statement name="HANDLER"><block type="controls_if" id="tBE8jc.aK??!r(]:WF$n"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="UvI3VSe%i,9sgV1gM!g|"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="vW[A4I)/_M/4T(66%hZs"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Buiuc*8=_S]{B5Hm($;#"><field name="NUM">0</field></shadow><block type="variables_get" id="N/(V(~q-1T{f)FX[P}v/"><field name="VAR" id="{`;yx#jdh#aL%1bQw*k7">lightsOn</field></block></value><value name="B"><shadow type="math_number" id="R-*jHj9k;6{xmn^zwFG5"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="=v{j[EY3V?T}g`4^jsq1"><field name="VAR" id="{`;yx#jdh#aL%1bQw*k7">lightsOn</field><value name="VALUE"><shadow type="math_number" id="Je0-g7yrvY}sDnWO`)(a"><field name="NUM">1</field></shadow></value><next><block type="basic_show_icon" id="xK=yTHo4YGbFyIclp@aw"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="S@WUwGFL})F5na#by{dB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="s5dK0iM41[X@[s[`$%l?"><field name="BOOL">FALSE</field></shadow></value><value name="IF2"><shadow type="logic_boolean" id="#cB|j[I-6xjWlq:LHEn."><field name="BOOL">FALSE</field></shadow></value><statement name="ELSE"><block type="variables_set" id="8}93)[SLf(+Lpg~+BGnr"><field name="VAR" id="{`;yx#jdh#aL%1bQw*k7">lightsOn</field><value name="VALUE"><shadow type="math_number" id="Fa7?nsP_]/yr{qu3ypnm"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="T5y(cn8DX/FtCoB|qNCq"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></statement></block></xml>
